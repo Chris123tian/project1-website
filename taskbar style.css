@@ -1,0 +1,102 @@
+
+        .Enter-email{
+            height: 24px;
+            width: 300px;
+            border-radius: 3px;
+            border-style: solid;
+            margin-right: 10px;
+
+        }
+        .Enter-email::placeholder{
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            
+        }
+        .date-birth{
+            height: 20px;
+            cursor: pointer;
+        }
+        .text{
+            font-family: Arial;
+            font-size: 11;
+            font-weight: bold;
+            
+        }
+        .check-1{
+            cursor: pointer;
+        }
+        .check-2{
+            cursor: pointer;
+            /* display: block; */
+        }
+        .logings{
+            width: 200px;
+            margin-top: 20px; 
+        }
+        .signin-button{
+            height: 36px;
+            background-color: rgb(29, 117, 146);
+            color: white;
+            font-family: Arial;
+            font-size: 14px;
+            width: 70px;
+            font-weight: bold;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            transition: opacity 0.15s;
+            cursor: pointer;
+        }
+    
+        .signin-button:hover{
+            background-color: rgb(41, 139, 172);;
+            color: white;
+        }
+        .signin-button:active{
+            opacity: 0.7;
+        }
+
+        .signup-button{
+            height: 36px;
+            background-color: rgb(168, 31, 66);
+            color: white;
+            font-family: Arial;
+            font-size: 14px;
+            width: 100px;
+            font-weight: bold;
+            border-style: solid;
+            border-radius: 4px;
+            border-width: 1px;
+            cursor: pointer;
+            transition:opacity 0.15s;
+        }
+        .signup-button:hover{
+            background-color: rgb(182, 57, 88);
+            color: white;
+        }
+        .signup-button:active{
+            opacity: 0.7;
+        }
+        span{
+            /* display: block; */
+            font-size: 15px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .age-button{
+            /* display: block; */
+            font-size: 15px;
+            font-family: Arial;
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 300px;
+            margin-top: 20px;
+            
+        }
+        .email{
+            width: 100px;
+            display: block;
+        }
+        
